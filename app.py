@@ -106,20 +106,23 @@ st.markdown("""
         border: 1px solid #C8A84C !important;
         background: var(--white) !important;
         border-radius: 3px !important;
-        color: var(--gold) !important;
+        color: #000000 !important;
         font-family: 'Georgia', serif !important;
+        font-weight: 700 !important;
     }
     .stTextArea textarea {
         border: 1px solid #C8A84C !important;
         background: var(--white) !important;
         border-radius: 3px !important;
-        color: var(--gold) !important;
+        color: #000000 !important;
         font-family: 'Georgia', serif !important;
+        font-weight: 700 !important;
     }
     /* Number input typed value */
     .stNumberInput input[type="number"] {
-        color: var(--gold) !important;
+        color: #000000 !important;
         font-family: 'Georgia', serif !important;
+        font-weight: 700 !important;
     }
     /* Metric value text */
     [data-testid="stMetricValue"] {
