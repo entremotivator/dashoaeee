@@ -106,11 +106,42 @@ st.markdown("""
         border: 1px solid #C8A84C !important;
         background: var(--white) !important;
         border-radius: 3px !important;
+        color: var(--gold) !important;
+        font-family: 'Georgia', serif !important;
     }
     .stTextArea textarea {
         border: 1px solid #C8A84C !important;
         background: var(--white) !important;
         border-radius: 3px !important;
+        color: var(--gold) !important;
+        font-family: 'Georgia', serif !important;
+    }
+    /* Number input typed value */
+    .stNumberInput input[type="number"] {
+        color: var(--gold) !important;
+        font-family: 'Georgia', serif !important;
+    }
+    /* Metric value text */
+    [data-testid="stMetricValue"] {
+        color: var(--gold-lt) !important;
+        font-family: 'Georgia', serif !important;
+    }
+    /* Metric label */
+    [data-testid="stMetricLabel"] {
+        color: var(--slate) !important;
+    }
+    /* Column headers bold text */
+    .stMarkdown strong {
+        color: var(--slate) !important;
+        font-family: 'Georgia', serif !important;
+        font-size: 0.78rem !important;
+        letter-spacing: 0.05em !important;
+        text-transform: uppercase !important;
+    }
+    /* Caption text */
+    .stCaption {
+        color: var(--slate) !important;
+        font-family: 'Georgia', serif !important;
     }
 
     /* Buttons */
